@@ -5,7 +5,8 @@ body {
 }
 
 .container {
-  display: grid;
+  display: grid
+    background-color:blanchedalmond
   align-items: center;
   grid-template-areas:
     "navbar navbar navbar navbar"
