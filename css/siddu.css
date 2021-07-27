@@ -89,10 +89,11 @@ body {
 
 #gallery img {
   align-content: center;
-  width: 369px;
-  height: 369px;
+  width: 407px;
+  height: 407px;
   margin: 10px;
   padding: 10px;
+  border-radius: 25px;
   transition: 1s;
 }
 
