@@ -1,0 +1,220 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  align-items: center;
+  grid-template-areas:
+    "navbar navbar navbar navbar"
+    "cover cover cover cover "
+    "gallery gallery gallery gallery"
+    "profile profile profile para"
+    "footer footer footer footer";
+}
+
+#navbar {
+  grid-area: navbar;
+  background-color: rgb(185, 178, 169);
+  padding: 5px 12px;
+}
+
+#navbar .active {
+  color: gray;
+}
+.topnav a {
+  display: inline;
+  font-size: 36px;
+  margin: 0px 23px;
+  color: rgb(60, 134, 218);
+  font-family: "Baloo Bhai 2", cursive;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  color: rgb(119, 115, 108);
+}
+#navbar .instragrm img {
+  width: 45px;
+  height: 45px;
+  float: right;
+  border-radius: 50%;
+  margin: -56px;
+  margin-right: 35px;
+  margin-top: -50px;
+}
+#navbar .facebook img {
+  width: 45px;
+  height: 45px;
+  float: right;
+  border-radius: 50%;
+  margin: -56px;
+  margin-right: 122px;
+  margin-top: -50px;
+}
+
+#cover {
+  grid-area: cover;
+  position: relative;
+}
+#cover img {
+  width: 100%;
+  height: 600px;
+}
+
+.heading {
+  position: absolute;
+  top: -5%;
+  right: 18%;
+  float: right;
+  text-align: center;
+  font-size: 108px;
+  font-family: "Cabin Sketch", cursive;
+}
+.heading1 {
+  position: absolute;
+  top: 7%;
+  right: 5%;
+  text-align: center;
+  font-size: 108px;
+  font-family: "Cabin Sketch", cursive;
+}
+
+#gallery {
+  align-items: center;
+  grid-area: gallery;
+}
+
+#gallery img {
+  align-content: center;
+  width: 369px;
+  height: 369px;
+  margin: 10px;
+  padding: 10px;
+  transition: 1s;
+}
+
+#gallery img:hover {
+  transform: scale(1.1);
+}
+#gallery h1 {
+  text-align: center;
+  font-size: 36px;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Baloo Bhai 2", cursive;
+  color: rgb(60, 134, 218);
+}
+
+#profile {
+  grid-area: profile;
+
+  margin-top: -5px;
+  text-align: center;
+}
+
+#profile h1 {
+  text-align: center;
+  font-family: "Baloo Bhai 2", cursive;
+  font-size: 36px;
+  margin: 0px;
+  padding: 0px;
+  color: rgb(60, 134, 218);
+}
+#profile img {
+  display: block;
+  float: left;
+  width: 757px;
+  height: 550px;
+  margin-top: -24px;
+}
+
+#profile h2 {
+  font-family: "Baloo Bhai 2", cursive;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 105px;
+  color: rgb(60, 134, 218);
+}
+
+.rside p {
+  display: block;
+  float: right;
+  font-family: "Baloo Bhai 2", cursive;
+  font-size: 22px;
+  color: rgb(60, 134, 218);
+  margin: 20px;
+  margin-top: -367px;
+  padding-left: 713px;
+}
+
+footer {
+  background-color: rgb(185, 178, 169);
+  grid-area: footer;
+  align-items: center;
+  color: rgb(60, 134, 218);
+}
+
+#footer h1 {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 36px;
+  font-family: "Baloo Bhai 2", cursive;
+  margin: auto;
+}
+.whatsapp img {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin-left: 50px;
+  margin-top: -7%;
+}
+
+.whatsapp p {
+  margin-left: 107px;
+  margin-top: -50px;
+  margin-bottom: 50px;
+  font-weight: bolder;
+  font-size: 30px;
+  font-family: "Baloo Bhai 2", cursive;
+}
+.mail img {
+  width: 50px;
+  height: 50px;
+  margin-left: 508px;
+}
+
+.mail p {
+  margin-left: 566px;
+  margin-top: -58px;
+  margin-bottom: 50px;
+  font-weight: bolder;
+  font-size: 30px;
+  font-family: "Baloo Bhai 2", cursive;
+}
+
+.mail a {
+  color: rgb(60, 134, 218);
+  text-decoration: none;
+}
+.call img {
+  width: 50px;
+  height: 50px;
+  margin: 20px;
+  margin-right: 275px;
+  margin-top: -7%;
+  float: right;
+}
+
+.call p {
+  margin-right: 52px;
+  margin-top: -7%;
+  margin-bottom: 50px;
+  font-weight: bolder;
+  font-size: 30px;
+  float: right;
+  font-family: "Baloo Bhai 2", cursive;
+}
+
